@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: rgb(75, 46, 169);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container {
+  padding-left: 30px; 
+  display: flex;
+}
+/*.sidebar {
+  background-color: blue;
+  color: white;
+  padding-bottom: 276px;
+  padding-right: 19px;
+  padding-left: 19px;
+}*/
+
+.sidebar {
+  text-align: center;
+  background-color: rgb(21, 60, 139);
+  color: white;
+  width: 290px;
+  height: 577px;  
+  padding-top: 40px;
+  margin: 0;
+  margin-right: 55px;
+}
+.sidebar img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10%;
+}
+.sidebar nav ul li a {
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+} 
+.sidebar nav ul li {
+  padding: 10px 0;
+  border-bottom: 1px solid gray;
+}
+.sidebar nav ul li:active{
+  background-color: white;
+}
+.sidebar nav ul li a:active {
+  color: black;
+}
+.sidebar nav ul {
+  text-decoration: none;
+  list-style-type: none;
+  color: whi;
+  padding: 0 0 0 0;
+}
+.box-2 .img {
+  width: 945px;
+  height: 250px;
+}
+.box-2 h1 {
+  font-size: 20px;
+}
+.piple {
+  height: 200px;
+  float: right;
+  margin-right: 50px;
+}
+button {
+  padding: 10px 20px;
+}
